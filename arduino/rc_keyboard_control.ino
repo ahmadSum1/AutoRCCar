@@ -97,6 +97,6 @@ void send_command(int command, int time){
      case 8: reverse_right(time); break;
      case 9: reverse_left(time); break;
 
-     default: Serial.print("Inalid Command\n");
+     default: Serial.print("Invalid Command\n");
     }
 }
